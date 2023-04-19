@@ -1,0 +1,25 @@
+* {
+  font-family: 'Inter', sans-serif;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  height: 110px;
+  gap: 14px;
+}
+
+.globe-icon {
+  height: 55px;
+}
+
+.header-text {
+  color: white;
+  font-weight: 500;
+  font-size: 28px;
+  letter-spacing: -0.075em;
+}
+
