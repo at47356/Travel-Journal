@@ -1,5 +1,6 @@
 export default function Card (props){
     return(
+      
        <div className="card-div">
          <img src={`${props.img}`} className="main-img" />
          <div className="info-div">
@@ -13,5 +14,6 @@ export default function Card (props){
             <p className="card-description">{`${props.description}`}</p>
          </div>
        </div>
+      
     )
 } 

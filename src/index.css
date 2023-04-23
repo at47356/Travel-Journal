@@ -93,3 +93,12 @@
   line-height: 150%;
   margin-top: -20px;
 }
+
+.line {
+  width: 75%;
+  margin: auto;
+  height: 1px;
+  background-color: #F5F5F5;
+  border-radius: 1px;
+  border: 1px solid #F5F5F5;
+}

@@ -5,21 +5,21 @@ import Card from './Card.jsx'
 import data from './data.jsx'
 
 function App() {
-  const generate = data.map(place => {
-    return <Card 
-      key={place.id}
-      {...place}
-      />
-      
-  }) 
+  const generateCard = data.map((place, index) => {
+    return (
+      <div key={place.id}>
+        <Card {...place} />
+        {index !== data.length - 1 && <hr className='line'/>}
+      </div>
+    );
+  });
 
   return (
     <div className="App">
-      <Header/>
-      {generate}
-      {/* <Card/> */}
+      <Header />
+      {generateCard}
     </div>
-  )
+  );
 }
 
 export default App
